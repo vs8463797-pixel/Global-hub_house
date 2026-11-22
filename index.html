@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Hub House — Handwriting Jobs for Girls &amp; Women</title>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1698814718478859');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1698814718478859&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    :root {
+      --bg-top: #fdeff5;
+      --bg-bottom: #f3ecff;
+      --card-bg: #ffffff;
+      --text-main: #231942;
+      --text-muted: #665c84;
+      --accent-pink: #d81b60;
+      --accent-purple: #6a1b9a;
+      --pill-pink-bg: #fce4ec;
+      --pill-purple-bg: #f3e5f5;
+      --pill-green-bg: #e8f5e9;
+      --pill-green-text: #1b5e20;
+      --whatsapp-green: #25a244;
+      --whatsapp-hover: #1e8738;
+      --border-soft: #eee6f7;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(160deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 440px;
+      background: var(--card-bg);
+      border-radius: 22px;
+      padding: 20px 18px 18px;
+      box-shadow: 0 14px 36px rgba(106, 27, 154, 0.12);
+      border: 1px solid #f7e8f2;
+    }
+
+    .top-brand {
+      text-align: center;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      color: var(--accent-purple);
+      margin-bottom: 8px;
+    }
+
+    .badge-wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    .top-badge {
+      background: #fff0f6;
+      color: var(--accent-pink);
+      border: 1px solid #f8bbd0;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.38rem;
+      line-height: 1.25;
+      color: #1e1538;
+      margin-bottom: 4px;
+    }
+
+    .hl-pink {
+      background: linear-gradient(180deg, transparent 52%, #ffd6e7 52%);
+      color: var(--accent-pink);
+      padding: 0 4px;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+
+    .hl-purple {
+      background: linear-gradient(180deg, transparent 52%, #ebd8ff 52%);
+      color: var(--accent-purple);
+      padding: 0 4px;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+
+    .hl-gold {
+      background: linear-gradient(180deg, transparent 52%, #fff0b3 52%);
+      color: #5c3d00;
+      padding: 0 4px;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+
+    .hl-green {
+      background: linear-gradient(180deg, transparent 52%, #c8f3d4 52%);
+      color: #14532d;
+      padding: 0 4px;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+
+    .pen-icon {
+      text-align: center;
+      font-size: 1.15rem;
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      line-height: 1.35;
+    }
+
+    .info-list {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      margin-bottom: 14px;
+    }
+
+    .info-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      background: #fdf9fc;
+      border: 1px solid var(--border-soft);
+      border-left: 4px solid var(--accent-purple);
+      border-radius: 10px;
+      padding: 8px 10px;
+      font-size: 0.82rem;
+    }
+
+    .info-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      color: #24193d;
+      line-height: 1.25;
+    }
+
+    .tag {
+      flex-shrink: 0;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .tag-pink {
+      background: var(--pill-pink-bg);
+      color: var(--accent-pink);
+    }
+
+    .tag-purple {
+      background: var(--pill-purple-bg);
+      color: var(--accent-purple);
+    }
+
+    .tag-green {
+      background: var(--pill-green-bg);
+      color: var(--pill-green-text);
+    }
+
+    .confirm-check {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.78rem;
+      color: #3b2f5c;
+      margin-bottom: 10px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .confirm-check input {
+      width: 15px;
+      height: 15px;
+      accent-color: var(--accent-pink);
+      cursor: pointer;
+    }
+
+    .above-btn-alert {
+      display: none;
+      text-align: center;
+      color: #d32f2f;
+      background: #ffebee;
+      border: 1px solid #ffcdd2;
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-size: 0.84rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    @keyframes waPopup {
+      0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 6px 16px rgba(37, 162, 68, 0.28);
+      }
+      50% {
+        transform: scale(1.045);
+        box-shadow: 0 12px 26px rgba(37, 162, 68, 0.45);
+      }
+    }
+
+    .wa-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      width: 100%;
+      background: var(--whatsapp-green);
+      color: #ffffff;
+      border: none;
+      font-weight: 700;
+      font-size: 0.98rem;
+      padding: 12px 14px;
+      border-radius: 12px;
+      cursor: pointer;
+      animation: waPopup 1.8s ease-in-out infinite;
+      transition: background 0.2s ease, opacity 0.2s ease;
+    }
+
+    .wa-btn:hover:not(:disabled) {
+      background: var(--whatsapp-hover);
+      animation-play-state: paused;
+      transform: scale(1.02);
+    }
+
+    .wa-btn:disabled {
+      opacity: 0.75;
+      cursor: not-allowed;
+      animation: none;
+      transform: none;
+    }
+
+    .status-msg {
+      min-height: 18px;
+      text-align: center;
+      font-size: 0.76rem;
+      color: var(--accent-pink);
+      font-weight: 600;
+      margin-top: 6px;
+    }
+
+    .wa-note {
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    @media (max-width: 400px) {
+      .card {
+        padding: 16px 14px;
+      }
+
+      h1 {
+        font-size: 1.22rem;
+      }
+
+      .info-row {
+        font-size: 0.78rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .wa-btn {
+        animation: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main class="card">
+    <div class="top-brand">Global Hub House</div>
+
+    <div class="badge-wrap">
+      <div class="top-badge">👩‍🎓 Only for Girls &amp; Women</div>
+    </div>
+
+    <h1>Handwriting Jobs for <span class="hl-pink">Girls &amp; Women</span></h1>
+    <div class="pen-icon">✍️</div>
+    <p class="subtitle"><span class="hl-gold">Good handwriting</span> se books aur novels likhne ka mauka 📖✨</p>
+
+    <section class="info-list" aria-label="Job Details">
+      <div class="info-row">
+        <div class="info-left">
+          <span>👩‍🎓</span>
+          <span>Only for <span class="hl-pink">Girls &amp; Women</span></span>
+        </div>
+        <span class="tag tag-pink">Girls Only</span>
+      </div>
+
+      <div class="info-row">
+        <div class="info-left">
+          <span>🎓</span>
+          <span>Minimum Qualification: <span class="hl-purple">12th Pass</span></span>
+        </div>
+        <span class="tag tag-purple">12th+</span>
+      </div>
+
+      <div class="info-row">
+        <div class="info-left">
+          <span>✍️</span>
+          <span>Quality of Work: <span class="hl-gold">Good handwriting</span> required</span>
+        </div>
+        <span class="tag tag-pink">Neat Writing</span>
+      </div>
+
+      <div class="info-row">
+        <div class="info-left">
+          <span>📚</span>
+          <span>Work: Handwriting <span class="hl-purple">Books &amp; Novels</span></span>
+        </div>
+        <span class="tag tag-purple">Books/Novels</span>
+      </div>
+
+      <div class="info-row">
+        <div class="info-left">
+          <span>📦</span>
+          <span><span class="hl-gold">3 Projects</span> Available</span>
+        </div>
+        <span class="tag tag-pink">3 Projects</span>
+      </div>
+
+      <div class="info-row">
+        <div class="info-left">
+          <span>✅</span>
+          <span><span class="hl-green">Registration Fees Required</span></span>
+        </div>
+        <span class="tag tag-green">Fee Applicable</span>
+      </div>
+    </section>
+
+    <label class="confirm-check" for="human-confirm">
+      <input type="checkbox" id="human-confirm" />
+      <span>I have read the job details &amp; <span class="hl-green">registration fee</span> info.</span>
+    </label>
+
+    <div id="above-btn-alert" class="above-btn-alert" role="status" aria-live="polite">
+      Please wait... (3s)
+    </div>
+
+    <button type="button" id="whatsapp-cta" class="wa-btn">
+      SMS ON WhatsApp 🚀
+    </button>
+
+    <div id="status-msg" class="status-msg" aria-live="polite"></div>
+    <p class="wa-note">WhatsApp par "<span class="hl-pink">Hi I'm interested for this job</span>" message open hoga 💬</p>
+  </main>
+
+  <script>
+    (function () {
+      const WHATSAPP_NUMBER = "918741878829";
+      const WA_TEXT = encodeURIComponent("Hi I'm interested for this job");
+      const MIN_DWELL_MS = 2000;
+      const WAIT_SECONDS = 3;
+
+      const pageLoadedAt = Date.now();
+      let humanInteracted = false;
+      let contactTracked = false;
+      let isRedirecting = false;
+
+      const markHuman = () => {
+        humanInteracted = true;
+      };
+
+      window.addEventListener("pointerdown", markHuman, { once: true, passive: true });
+      window.addEventListener("touchstart", markHuman, { once: true, passive: true });
+      window.addEventListener("keydown", markHuman, { once: true, passive: true });
+      window.addEventListener("scroll", markHuman, { once: true, passive: true });
+
+      const waBtn = document.getElementById("whatsapp-cta");
+      const confirmBox = document.getElementById("human-confirm");
+      const aboveAlert = document.getElementById("above-btn-alert");
+      const statusMsg = document.getElementById("status-msg");
+
+      if (waBtn) {
+        waBtn.addEventListener("click", function (e) {
+          e.preventDefault();
+          if (isRedirecting) return;
+
+          statusMsg.textContent = "";
+
+          const elapsed = Date.now() - pageLoadedAt;
+          if (!humanInteracted || elapsed < MIN_DWELL_MS) {
+            statusMsg.textContent = "Please review the details for a moment before continuing.";
+            return;
+          }
+
+          if (confirmBox && !confirmBox.checked) {
+            statusMsg.textContent = "Please tick the box above to confirm job details.";
+            return;
+          }
+
+          isRedirecting = true;
+          waBtn.disabled = true;
+
+          if (!contactTracked && typeof fbq === "function") {
+            fbq("track", "Contact");
+            contactTracked = true;
+          }
+
+          let remaining = WAIT_SECONDS;
+          aboveAlert.style.display = "block";
+          aboveAlert.textContent = `Please wait... (${remaining}s)`;
+
+          const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${WA_TEXT}`;
+
+          const timer = setInterval(function () {
+            remaining -= 1;
+            if (remaining > 0) {
+              aboveAlert.textContent = `Please wait... (${remaining}s)`;
+            } else {
+              clearInterval(timer);
+              window.location.href = waUrl;
+            }
+          }, 1000);
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
